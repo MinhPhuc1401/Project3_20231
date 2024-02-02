@@ -7,7 +7,7 @@ This repository contains the code for "Diffusion Variational Autoencoder for Tac
 Mở cmd, cd đến thư mục mong muốn để clone repository
 
 ```
-git clone 
+git clone https://github.com/MinhPhuc1401/Project3_20231.git
 ```
 
 Tải thư viện yêu cầu

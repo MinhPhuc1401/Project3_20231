@@ -18,7 +18,7 @@ if __name__ == '__main__':
     # Load data
     parser.add_argument('--root_path', type=str, default='./data/2016', help='root path of the data files')
     parser.add_argument('--checkpoints', type=str, default='./checkpoints/', help='location of model checkpoints')
-    parser.add_argument('--sequence_length', type=int, default=10, help='length of input sequence')
+    parser.add_argument('--sequence_length', type=int, default=20, help='length of input sequence')
     parser.add_argument('--prediction_length', type=int, default=None, help='prediction sequence length')
     parser.add_argument('--target_dim', type=int, default=1, help='dimension of target')
     parser.add_argument('--input_dim', type=int, default=6, help='dimension of input')

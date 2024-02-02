@@ -142,7 +142,7 @@ class Exp_Model(object):
                 break
             adjust_learning_rate(denoise_optim, epoch+1, self.args)
         best_model_path = path+'/'+'checkpoint.pth'
-        self.denoise_net.load_state_dict(torch.load(best_model_path))
+        self.denoise_net.load_state_dict(torch.load(best_model_path, map_location=torch.device('cpu')))
 
     def predict(self, setting):
         copy_parameters(self.denoise_net, self.pred_net)
